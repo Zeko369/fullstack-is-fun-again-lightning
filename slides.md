@@ -81,10 +81,16 @@ $result = $conn->query("SELECT id, title FROM posts");
 ```
 
 ---
+
+# Only if you're this guy
+
+<img src="/assets/levels.png" >
+
+---
 layout: two-cols-header
 ---
 
-# What did we do to fix this?
+# And what did the rest of us do?
 
 ::left::
 
@@ -187,21 +193,53 @@ function App() {
 # Hmm...
 
 <h2>
-    This is 7x the amount of code
+  This is like 5x the amount of code
 </h2>
 
 <ul v-click class="mt-10">
-    <li>❌ No boilerplate</li>
-    <li>❌ Easy to add server features</li>
-    <li>❌ Easy to add interactive features</li>
-    <li class="decoration-line-through">✅ Great DX (editor autocomplete, ...)</li>
+  <li>❌ No boilerplate</li>
+  <li>❌ Easy to add server features</li>
+  <li>🤷‍♂️ [Kinda] Easy to add interactive features</li>
+  <li>✅ Great DX (editor autocomplete, ...)</li>
 </ul>
+
+---
+
+<div class="flex items-center justify-center">
+    <img src="/assets/complex.webp" class="object-fit">
+</div>
 
 ---
 layout: two-cols-header
 ---
 
-# Course correction
+# Meta frameworks
+
+<div class="flex items-center justify-center h-full">
+  <img src="/assets/meta.png" class="w-120">
+  <h2 class="ml-5 mt-8" style="font-size: 60px">Framework</h2>
+</div>
+
+
+---
+layout: two-cols-header
+---
+
+# Meta frameworks
+
+::left::
+
+<img src="/assets/next.png" class="w-80">
+
+::right::
+
+<img src="/assets/remix.jpg" class="w-80">
+
+---
+layout: two-cols-header
+---
+
+# (Meta) Meta frameworks
 
 Great but mostly evolution not revolution
 
@@ -217,7 +255,7 @@ Great but mostly evolution not revolution
 clicks: 3
 ---
 
-# Next.js App Router
+# Next.js App Router (and Astro)
 
 <div class="grid grid-cols-2 grid-gap-x-2">
 
@@ -294,7 +332,7 @@ export default async function GetPosts() {
           <li key={post.id}>{post.title}</li>
         ))}
       </ul>
-      
+
       <ConfirmButton />
     </div>
   );
@@ -303,6 +341,68 @@ export default async function GetPosts() {
 
 ---
 
-# But I don't like Next13 / RSC / Triangle Company
+# Next.js App Router
+
+<ul class="mt-10">
+    <li>✅ No boilerplate</li>
+    <li>✅ Easy to add server features</li>
+    <li>✅ Easy to add interactive features</li>
+    <li>✅ Great DX (editor autocomplete, ...)</li>
+</ul>
+
+---
+layout: statement
+---
+
+# "But I don't like Next13 / RSC / Triangle Company"
 
 Try it again (WITH an open mind), you'll probably like it
+
+---
+
+# Disclaimer
+
+<img src="/assets/salt.gif">
+
+---
+
+# Disclaimer
+
+<img src="/assets/salt-truck.jpeg">
+
+---
+layout: statement
+---
+
+# In the end
+
+---
+layout: statement
+---
+
+# it doesn't even matter
+
+<style>
+.statement {
+  background-image: url("/assets/linkin-new.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+</style>
+
+---
+layout: statement
+---
+
+# Just ship it
+
+---
+layout: statement
+---
+
+# Thank you
+
+<div class="flex items-center justify-center">
+  <img src="/assets/qr.png" class="w-60">
+</div>
