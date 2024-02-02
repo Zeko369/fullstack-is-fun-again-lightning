@@ -72,11 +72,11 @@ $result = $conn->query("SELECT id, title FROM posts");
 </ul>
 
 <script>
-    $(document).ready(function() {
-        $('button#submit').on('click', function() {
-            toastLibraryWePulledFromSomeCDN().fire({title: 'Hello there', body: 'General Kenobi'});
-        })
+  $(document).ready(function() {
+    $('button#submit').on('click', function() {
+      toastLibraryWePulledFromSomeCDN().fire({title: 'Hello there', body: 'General Kenobi'});
     })
+  })
 </script>
 ```
 
@@ -206,7 +206,7 @@ function App() {
 ---
 
 <div class="flex items-center justify-center">
-    <img src="/assets/complex.webp" class="object-fit">
+  <img src="/assets/complex.webp" class="object-fit">
 </div>
 
 ---
@@ -344,10 +344,10 @@ export default async function GetPosts() {
 # Next.js App Router
 
 <ul class="mt-10">
-    <li>✅ No boilerplate</li>
-    <li>✅ Easy to add server features</li>
-    <li>✅ Easy to add interactive features</li>
-    <li>✅ Great DX (editor autocomplete, ...)</li>
+  <li>✅ No boilerplate</li>
+  <li>✅ Easy to add server features</li>
+  <li>✅ Easy to add interactive features</li>
+  <li>✅ Great DX (editor autocomplete, ...)</li>
 </ul>
 
 ---
