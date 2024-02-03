@@ -5,7 +5,7 @@ fonts:
 
 # Fullstack can be fun (again)
 
-Fran Zekan
+Fran Zekan, Senior Software Engineer @ Unidy
 
 ---
 
@@ -74,7 +74,7 @@ $result = $conn->query("SELECT id, title FROM posts");
 <script>
   $(document).ready(function() {
     $('button#submit').on('click', function() {
-      toastLibraryWePulledFromSomeCDN().fire({title: 'Hello there', body: 'General Kenobi'});
+      toastLibraryWePulledFromSomeCDN().fire({ title: 'Hello there', body: 'General Kenobi' });
     })
   })
 </script>
@@ -403,6 +403,8 @@ layout: statement
 
 # Thank you
 
-<div class="flex items-center justify-center">
+## Twitter: @Zeko369
+
+<div class="flex items-center justify-center mt-5">
   <img src="/assets/qr.png" class="w-60">
 </div>
